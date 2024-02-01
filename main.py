@@ -2,7 +2,7 @@
 def sum_of_products(list1, list2):
       list1 = list1.split()
       list2 = list2.split()
-    if list1.len() == list2:
+    if list1.len() == list2.len():
         total = 0
         for item in range(list1.len()):
             mult = int(list1[item]) * int(list2[item])
